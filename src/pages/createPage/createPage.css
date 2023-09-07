@@ -1,0 +1,51 @@
+.create{
+  background-color:#46529d;
+  position:relative;
+  top:100px;
+  border-radius:5%;
+  height:60%;
+  color:white
+}
+.create h1{
+ font-size:25px;
+ padding:20px;
+}
+.create .menu{
+margin-top:30px;
+}
+.create p{
+display:inline-block;
+margin-right:30px;
+
+}
+
+.create input[type="text"], input[type="time"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  border-bottom:1px white solid;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+.create input[type="text"]:focus , input[type="time"]:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+.create button{
+  position:absolute;
+  bottom:10px;
+  right:30px;
+  width:80%;
+  background-color:#61b8ef;
+  margin:30px;
+  padding:10px;
+}

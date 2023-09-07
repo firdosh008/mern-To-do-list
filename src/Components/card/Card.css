@@ -1,0 +1,53 @@
+.card{
+margin-bottom:10px;
+}
+
+.card button {
+  min-height: 50px;
+  width: 50px;
+  background-color: #61b8ef;
+  color: #fff;
+  font-size: 24px;
+  padding: 2px;
+  border-width: 0;
+  position:relative;
+  left:210px;
+  margin-bottom:10px;
+}
+
+form .item {
+    text-align: center;
+    margin-left: 10px;
+  }
+
+.item p {
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color:white;
+  }
+.item .icon{
+ color:white;
+ position:absolute;
+ right:10px;
+}
+.item .date{
+ font-size:15px;
+ position:absolute;
+ right:30px;
+}
+
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: gray;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+  }

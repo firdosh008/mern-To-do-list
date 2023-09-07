@@ -1,0 +1,41 @@
+.profile{
+ position:absolute;
+ width:fit-content;
+ left:30px;
+ top:55px;
+}
+
+.profile{
+cursor:pointer
+}
+
+.profile button{
+  min-height: 40px;
+  width: 40px;
+  background-color: #61b8ef;
+  color: #fff;
+  font-size: 25px;
+  border-width: 0;
+  margin-bottom:10px;
+}
+.user .profileMenu{
+    position:absolute;
+    width:100px;
+    margin:auto;
+    height:fit-content;
+    background-color:white;
+    padding:20px;
+    border:1px solid black;
+}
+.user .profileMenu{
+    padding:10px;
+}
+.user .profileMenu li{
+    margin:10px 10px;
+    text-align:left;
+}
+.user .profileMenu .profileMenu-content:hover{
+    font-weight:bold;
+}
+
+

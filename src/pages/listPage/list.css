@@ -1,0 +1,32 @@
+.card , .listHeading{
+    backdrop-filter: blur(0px) saturate(180%);
+    -webkit-backdrop-filter: blur(0px);
+    background-color: rgba(17, 25, 40, 0.5);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.list , .create{
+    font-family:helvetica neue;
+    margin:0 31rem;
+    font-weight:bold;
+}
+.listHeading{
+   position:relative;
+   top:40px;
+   color:white;
+   font-size:40px;
+}
+.active{
+  margin-top:100px;
+  cursor:context-menu;
+}
+.complete{
+ cursor:pointer;
+}
+
+.heading{
+  color:white;
+  text-align:left;
+  font-size:25px;
+  margin-bottom:10px;
+}
